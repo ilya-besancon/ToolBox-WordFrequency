@@ -61,8 +61,9 @@ def get_top_n_words(word_list, n):
 
 
 if __name__ == "__main__":
-    print("Running WordFrequency Toolbox. This will take a minute.")
+    print("Running WordFrequency Toolbox. This might take a second.")
     # number of top words:
     n = 10
     result = get_word_list('martineden.txt', n)
     print("Top ", n, 'words: ', result)
+    print("Wouldn't you think the author might be more creative? Joking!")
